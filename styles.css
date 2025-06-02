@@ -106,17 +106,16 @@ nav ul li a:hover::after {
 
 
 section {
-     
-
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     height: 40%;
     width: 100%;
     text-align: center;
-    
-    
 }
+#typing {
+    height: 40%;
+    width: auto;
 
 #skill{
     border: 2px;
