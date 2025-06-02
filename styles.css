@@ -64,6 +64,8 @@ nav {
     margin-top: 0%;
     font-size: 17px;
     width: 40%;
+    display: flex;
+    flex: flex-wrap;
     height: 10%;
  
 }
@@ -113,9 +115,7 @@ section {
     width: 100%;
     text-align: center;
 }
-#typing {
-    height: 40%;
-    width: auto;
+
 
 #skill{
     border: 2px;
