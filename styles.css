@@ -25,6 +25,7 @@ header {
     padding: 0px 0px;
     margin: 0;
     height: 10%;
+    box-sizing: boder-box;
 
 }
 
