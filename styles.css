@@ -66,7 +66,6 @@ nav {
     font-size: 17px;
     width: 40%;
     display: flex;
-    flex: flex-wrap;
     height: 10%;
  
 }
@@ -74,7 +73,6 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    margin-top: -50px;
 }
 
 nav ul li {
