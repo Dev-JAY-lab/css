@@ -361,6 +361,12 @@ button {
 button:hover {
     background: #00cc99;
 }
-/* */ 
+ @media screen and (max-width:860px) {
+            nav{
+                display: none;
+            }
+            
+         }
+
 
 
