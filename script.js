@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function typeText() {
         if (index < text.length) {
-            typingElement.innerHTML = text.slice(0, index + 17) + '<span class="cursor"></span>';
+            typingElement.innerHTML = text.slice(0, index + 17)  '<span class="cursor"></span>';
             index++;
             setTimeout(typeText, 90);
         } else {
