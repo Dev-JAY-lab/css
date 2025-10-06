@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 
-  <!-- 🔹 Preloader Styles -->
   <style>
-    /* Preloader */
     #preloader {
       position: fixed;
       top: 0;
@@ -45,8 +43,6 @@
       0% { background-position: 0%; }
       100% { background-position: 200%; }
     }
-
-    /* Dots Loader */
     .dots {
       display: flex;
       margin-top: 25px;
@@ -76,7 +72,6 @@
       }
     }
 
-    /* Hide scroll during preloader */
     body.loading {
       overflow: hidden;
     }
@@ -84,7 +79,6 @@
 </head>
 <body class="loading">
 
-  <!-- 🔹 PRELOADER SECTION -->
   <div id="preloader">
     <h1>The Developer Jay</h1>
     <div class="dots">
@@ -94,7 +88,6 @@
     </div>
   </div>
 
-  <!-- 🔹 ACTUAL WEBSITE CONTENT -->
   <video autoplay loop muted playsinline id="bg-video">
     <source src="back.mp4" type="video/mp4">
   </video>
@@ -207,7 +200,6 @@
     </section>
   </footer>
 
-  <!-- 🔹 Preloader Script -->
   <script>
     window.addEventListener("load", () => {
       const preloader = document.getElementById("preloader");
@@ -216,9 +208,10 @@
 
       setTimeout(() => {
         preloader.style.display = "none";
-      }, 3000); // fade duration
+      }, 3000); 
     });
   </script>
 </body>
 </html>
+
 
