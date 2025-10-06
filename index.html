@@ -201,18 +201,21 @@
   </footer>
 
   <script>
-    window.addEventListener("load", () => {
+     window.addEventListener("load", () => {
       const preloader = document.getElementById("preloader");
-      document.body.classList.remove("loading");
-      preloader.style.opacity = "0";
-
+      const content = document.getElementById("content");
       setTimeout(() => {
-        preloader.style.display = "none";
+        preloader.style.opacity = "0";
+        setTimeout(() => {
+          preloader.style.display = "none";
+          content.style.display = "flex";
+          setTimeout(() => content.classList.add("show"), 100);
+        }, 1000);
       }, 3000); 
-    });
   </script>
 </body>
 </html>
+
 
 
 
