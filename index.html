@@ -203,16 +203,17 @@
   <script>
      window.addEventListener("load", () => {
       const preloader = document.getElementById("preloader");
-      const content = document.getElementById("content");
+      document.body.classList.remove("loading");
+      preloader.style.opacity = "0";
 
-        setTimeout(() => {
-          preloader.style.display = "none";
-          content.style.display = "flex";
-          setTimeout(() => content.classList.add("show"), 100);
-        }, 1000);
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 2000); 
+    });
   </script>
 </body>
 </html>
+
 
 
 
