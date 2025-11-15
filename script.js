@@ -1,12 +1,12 @@
  
 document.addEventListener("DOMContentLoaded", () => {
-    const text = "Developer";
-    let index = 1;
+    const text = "Hi, I'm JAY Web Developer";
+    let index = 17;
     const typingElement = document.querySelector(".typing-text");
 
     function typeText() {
         if (index < text.length) {
-            typingElement.innerHTML = text.slice(0, index + 1) + '<span class="cursor"></span>';
+            typingElement.innerHTML = text.slice(0, index + 17) + '<span class="cursor"></span>';
             index++;
             setTimeout(typeText, 90);
         } else {
@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 //
 ////
+
 
 
 
